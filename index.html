@@ -16,7 +16,7 @@
   </head>
   <body>
     <header>
-      <div class="navbar navbar-expand-md ">
+      <div class="navbar navbar-expand-md">
         <div class="container">
           <h1>Anime X</h1>
           <button
@@ -43,39 +43,92 @@
         </div>
       </div>
     </header>
-    <div class="carousel slide" data-bs-ride="carousel">
-        <div class="container">
-            <div class="carousel-inner">
-                <div data-bs-interval="4000" class="carousel-item active">
-                    <img src="https://images7.alphacoders.com/132/thumbbig-1325984.webp" class="d-block w-100">
-                    <div class="carousel-caption">
-                        <h3>Novos Episódios de One Piece!</h3>
-                        <p>Disponíveis com transmissão direta do Japão</p>
-                    </div>
-                </div>
-                <div data-bs-interval="4000" class="carousel-item">
-                    <img src="https://images8.alphacoders.com/132/thumbbig-1328485.webp" class="d-block w-100">
-                    <div class="carousel-caption">
-                        <h3>A volta de Satoru Gojo</h3>
-                        <p>Confira a nova temporada de Jujutsu Kaisen!</p>
-                    </div>
-                </div>
-                <div data-bs-interval="4000" class="carousel-item">
-                    <img src="https://images6.alphacoders.com/132/thumbbig-1320017.webp" class="d-block w-100">
-                    <div class="carousel-caption">
-                        <h3>Relembre Demon Slayer</h3>
-                        <p>Assista novamente o anime mais premiado de 2019!</p>
-                    </div>
-                </div>
-                <div data-bs-interval="4000" class="carousel-item">
-                    <img src="https://images5.alphacoders.com/132/thumbbig-1329226.webp" class="d-block w-100">
-                    <div class="carousel-caption">
-                        <h3>Um clássico retorna: Dragon Ball Heroes!</h3>
-                        <p>Goku retorna junto com muita nostalgia e emoção, já disponível.</p>
-                    </div>
-                </div>
+    <div class="container">
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div data-bs-interval="4000" class="carousel-item active">
+            <img
+              src="https://images7.alphacoders.com/132/thumbbig-1325984.webp"
+              class="d-block w-100"
+            />
+            <div class="carousel-caption">
+              <h3>Novos Episódios de One Piece!</h3>
+              <p>Disponíveis com transmissão direta do Japão</p>
             </div>
+          </div>
+          <div data-bs-interval="4000" class="carousel-item">
+            <img
+              src="https://images8.alphacoders.com/132/thumbbig-1328485.webp"
+              class="d-block w-100"
+            />
+            <div class="carousel-caption">
+              <h3>A volta de Satoru Gojo</h3>
+              <p>Confira a nova temporada de Jujutsu Kaisen!</p>
+            </div>
+          </div>
+          <div data-bs-interval="4000" class="carousel-item">
+            <img
+              src="https://images6.alphacoders.com/132/thumbbig-1320017.webp"
+              class="d-block w-100"
+            />
+            <div class="carousel-caption">
+              <h3>Relembre Demon Slayer</h3>
+              <p>Assista novamente o anime mais premiado de 2019!</p>
+            </div>
+          </div>
+          <div data-bs-interval="4000" class="carousel-item">
+            <img
+              src="https://images5.alphacoders.com/132/thumbbig-1329226.webp"
+              class="d-block w-100"
+            />
+            <div class="carousel-caption">
+              <h3>Um clássico retorna: Dragon Ball Heroes!</h3>
+              <p>
+                Goku retorna junto com muita nostalgia e emoção, já disponível.
+              </p>
+            </div>
+          </div>
         </div>
+        <button
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+          class="carousel-control-prev"
+          type="button"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+          class="carousel-control-next"
+          type="button"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            class="active"
+            data-bs-slide-to="0"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="3"
+          ></button>
+        </div>
+      </div>
     </div>
     <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
   </body>
