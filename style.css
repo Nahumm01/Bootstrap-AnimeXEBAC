@@ -1,7 +1,7 @@
 body {
-    background-color: #fdff;
-  }
+  background-color: #fdff;
+}
 
-  .carousel-caption h3,.carousel-caption p{
-    
-  }
+#imgAnime {
+  background-color: rgba(0, 0, 0, 0.6);
+}
