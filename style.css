@@ -1,7 +1,37 @@
 body {
-  background-color: #fdff;
+  background-color: #ed254e;
 }
 
-#imgAnime {
-  background-color: rgba(0, 0, 0, 0.6);
+header h1, .nav-link{
+  color: white;
+}
+
+.nav-link:hover{
+  color: yellow;
+}
+
+/* Estilização padrão */
+.carousel-caption {
+  color: #fff;
+  font-weight: normal; /* Define o peso da fonte como normal */
+  background-color: transparent; /* Define o fundo como transparente */
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave para a mudança de cor de fundo */
+}
+
+/* Estilização ao passar o mouse (hover) */
+.carousel:hover .carousel-caption {
+  font-weight: bold; /* Torna a fonte em negrito */
+  background-color: rgba(0, 0, 0, 0.3); /* Define um fundo preto leve com opacidade */
+}
+/* Estilo para a camada preta semi-transparente */
+.image-overlay {
+  
+  background-color: rgba(0, 0, 0, 0.6); /* Cor preta com opacidade (0.6) */
+  z-index: 1; /* Coloca a camada preta acima da imagem */
+ 
+}
+
+/* Mostrar a camada preta ao passar o mouse */
+.carousel-item:hover .image-overlay {
+  display: block;
 }
