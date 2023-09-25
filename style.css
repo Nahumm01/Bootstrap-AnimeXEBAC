@@ -48,6 +48,11 @@ body h2 {
   text-align: center;
 }
 
+.card img{
+  max-width: auto;
+  max-height: auto;
+}
+
 .custom-width {
   width: 50%;
   margin: 0 auto;
