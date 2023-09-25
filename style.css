@@ -15,6 +15,16 @@ header h1,
   margin-left: 10px;
 }
 
+.part1 {
+  font-family: "Oriental", sans-serif;
+}
+
+.part2 {
+  font-family: "Futurista", sans-serif;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
 nav .nav-link {
   font-size: 20px;
   border-bottom: 1px solid transparent;
@@ -28,8 +38,8 @@ nav .nav-link:hover {
 #catalogo h2 {
   margin: 0 auto;
   width: 50%;
-  padding: 10px;
-  border-bottom: 1px solid black;
+  padding: 6px;
+  border-bottom: 1px solid white;
 }
 
 .card-title h3,
@@ -38,13 +48,14 @@ body h2 {
   text-align: center;
 }
 
-#contato h2 {
-  display: none;
-}
-
 .custom-width {
   width: 50%;
   margin: 0 auto;
+}
+
+.sugest{
+  border-bottom: 1px solid white;
+  padding: 6px;
 }
 
 .form label,
