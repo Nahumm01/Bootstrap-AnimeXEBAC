@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-      <div class="navbar navbar-expand-lg">
+      <div class="navbar navbar-expand-lg p-3 mb-2">
         <div class="container">
           <h1>Anime X</h1>
           <button
@@ -40,12 +40,7 @@
       </div>
     </header>
     <div class="container">
-      <div
-        id="carousel"
-        class="carousel slide"
-        data-bs-ride="carousel"
-        data-bs-theme="dark"
-      >
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div data-bs-interval="4000" class="carousel-item active">
             <img
@@ -136,12 +131,11 @@
       </div>
     </div>
     <section id="catalogo">
-      <div class="container">
-        <h2 class="mt-4">Catálogo</h2>
+      <div class="container p-1">
+        <h2 class="mt-4">Recém adicionados</h2>
         <div class="row">
           <div class="col-4">
             <div class="card mt-2">
-              <div class="card-header">ANIMEX</div>
               <img src="https://via.placeholder.com/50x50" alt="" />
               <article class="card-body">
                 <header class="card-title">
@@ -154,19 +148,18 @@
               </article>
               <footer class="card-footer">
                 <div class="mt-3 text-center">
-                  <p>Idioma</p>
+                  <p>Idiomas Disponíveis:</p>
                   <button class="btn btn-success">pt-BR</button>
                   <button class="btn btn-danger">jp-JP</button>
                 </div>
                 <p class="text-center mt-3">
-                  Upload feito em <time>10/10/2023</time>
+                  Upload feito em <time>04/08/2023</time>
                 </p>
               </footer>
             </div>
           </div>
           <div class="col-4">
             <div class="card mt-2">
-              <div class="card-header">ANIMEX</div>
               <img src="https://via.placeholder.com/50x50" alt="" />
               <article class="card-body">
                 <header class="card-title">
@@ -179,19 +172,18 @@
               </article>
               <footer class="card-footer">
                 <div class="mt-3 text-center">
-                  <p>Idioma</p>
+                  <p>Idiomas Disponíveis:</p>
                   <button class="btn btn-success">pt-BR</button>
                   <button class="btn btn-danger">jp-JP</button>
                 </div>
                 <p class="mt-3 text-center">
-                  Upload feito em <time>10/10/2023</time>
+                  Upload feito em <time>22/09/2023</time>
                 </p>
               </footer>
             </div>
           </div>
           <div class="col-4">
             <div class="card mt-2">
-              <div class="card-header">ANIMEX</div>
               <img src="https://via.placeholder.com/50x50" alt="" />
               <article class="card-body">
                 <header class="card-title">
@@ -204,12 +196,12 @@
               </article>
               <footer class="card-footer">
                 <div class="mt-3 text-center">
-                  <p>Idioma</p>
+                  <p>Idiomas Disponíveis:</p>
                   <button class="btn btn-success">pt-BR</button>
                   <button class="btn btn-danger">jp-JP</button>
                 </div>
                 <p class="mt-3 text-center">
-                  Upload feito em <time>10/10/2023</time>
+                  Upload feito em <time>14/07/2023</time>
                 </p>
               </footer>
             </div>
@@ -220,25 +212,27 @@
     <section id="Contato">
       <div class="container">
         <div class="row">
-          <div class="col-6 text-center">
-            <h3 class="mt-3">Contato</h3>
-            <form>
+          <div class="col-sm-6 text-center custom-width">
+            <h2 class="mt-3">Contato</h2>
+            <h3>Sugestão de anime?</h3>
+            <h4>Envie no campo abaixo!</h4>
+            <form class="form">
               <label for="nome" class="form-label">Seu nome</label>
               <input type="text" id="nome" class="form-control" />
               <label for="tel" class="form-label">Seu telefone</label>
               <input type="tel" id="tel" class="form-control" />
               <label for="textarea">Sua mensagem</label>
-              <textarea name="textarea" id="textarea"></textarea>
+              <input type="text" id="nome" class="form-control" />
               <button type="button" class="btn btn-danger">Enviar</button>
             </form>
-          </div>
-          <div class="col-6 mt-3 text-center">
-            <h3>Sugestão de anime?</h3>
-            <p>Envie no campo abaixo!</p>
           </div>
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <H5>Made with love and Bootstrap by Nahum.dev &copy; All Rights Reserved</H5>
+
+    </footer>
     <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
   </body>
 </html>
