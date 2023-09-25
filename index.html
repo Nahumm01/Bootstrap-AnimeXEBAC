@@ -13,7 +13,8 @@
   <body>
     <header>
       <div class="navbar navbar-expand-lg p-3 mb-2">
-        <div class="container">
+        <div class="container header">
+          <img src="./images/JEMA GER 1446-03.jpg" alt="" />
           <h1>Anime X</h1>
           <button
             type="button"
@@ -27,9 +28,6 @@
             <ul class="nav nav-pills navbar-nav">
               <li class="nav-item">
                 <a href="#catalogo" class="nav-link">Catálogo</a>
-              </li>
-              <li>
-                <a href="#contato" class="nav-link">Entre em contato</a>
               </li>
               <li>
                 <a href="#contato" class="nav-link">Deixe sua sugestão!</a>
@@ -134,7 +132,7 @@
       <div class="container p-1">
         <h2 class="mt-4">Recém adicionados</h2>
         <div class="row">
-          <div class="col-4">
+          <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="card mt-2">
               <img src="https://via.placeholder.com/50x50" alt="" />
               <article class="card-body">
@@ -158,7 +156,7 @@
               </footer>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="card mt-2">
               <img src="https://via.placeholder.com/50x50" alt="" />
               <article class="card-body">
@@ -182,7 +180,7 @@
               </footer>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="card mt-2">
               <img src="https://via.placeholder.com/50x50" alt="" />
               <article class="card-body">
@@ -209,13 +207,12 @@
         </div>
       </div>
     </section>
-    <section id="Contato">
+    <section id="sugest">
       <div class="container">
         <div class="row">
           <div class="col-sm-6 text-center custom-width">
-            <h2 class="mt-3">Contato</h2>
-            <h3>Sugestão de anime?</h3>
-            <h4>Envie no campo abaixo!</h4>
+            <h3 class="mt-5">Sugestão de anime?</h3>
+            <h5>Envie no campo abaixo!</h5>
             <form class="form">
               <label for="nome" class="form-label">Seu nome</label>
               <input type="text" id="nome" class="form-control" />
@@ -223,15 +220,16 @@
               <input type="tel" id="tel" class="form-control" />
               <label for="textarea">Sua mensagem</label>
               <input type="text" id="nome" class="form-control" />
-              <button type="button" class="btn btn-danger">Enviar</button>
+              <button type="button" class="btn btn-primary">Enviar</button>
             </form>
           </div>
         </div>
       </div>
     </section>
     <footer class="footer">
-      <H5>Made with love and Bootstrap by Nahum.dev &copy; All Rights Reserved</H5>
-
+      <h5>
+        Made with love and Bootstrap by Nahum.dev &copy; 
+      </h5>
     </footer>
     <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
   </body>
