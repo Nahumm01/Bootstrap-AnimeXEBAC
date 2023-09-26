@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="fonts.css" />
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
   </head>
   <body>
     <header>
@@ -32,16 +33,16 @@
                 <a href="#catalogo" class="nav-link">Catálogo</a>
               </li>
               <li>
-                <a href="#contato" class="nav-link">Deixe sua sugestão!</a>
+                <a href="#sugest" class="nav-link">Deixe sua sugestão!</a>
               </li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
-    <div class="container">
+    <div class="container p">
       <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner w-100 h-100">
           <div data-bs-interval="4000" class="carousel-item active">
             <img
               id="imgAnime"
@@ -131,7 +132,7 @@
       </div>
     </div>
     <section id="catalogo">
-      <div class="container p-1">
+      <div class="container p-1 mt-3">
         <h2 class="mt-4">Recém adicionados</h2>
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-4">
@@ -233,7 +234,7 @@
               <input type="tel" id="tel" class="form-control" />
               <label for="textarea">Sua mensagem</label>
               <input type="text" id="nome" class="form-control" />
-              <button type="button" class="btn btn-primary">Enviar</button>
+              <button type="button" class="btn btn-lg btn-outline-danger">Enviar</button>
             </form>
           </div>
         </div>

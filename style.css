@@ -1,5 +1,5 @@
 body {
-  background-color: #a40e4c;
+  background-color: #272829;
   color: white;
 }
 
@@ -23,6 +23,7 @@ header h1,
   font-family: "Futurista", sans-serif;
   font-size: 60px;
   margin-bottom: 20px;
+  color: #D80032;
 }
 
 nav .nav-link {
@@ -31,15 +32,25 @@ nav .nav-link {
 }
 
 nav .nav-link:hover {
-  color: white;
-  border-bottom: 1px solid black;
+  color: #D80032;
+  border-bottom: 1px solid #D80032;
+}
+
+.carousel-item img{
+  max-width: 100%;
+  max-height: 50%;
 }
 
 #catalogo h2 {
   margin: 0 auto;
   width: 50%;
   padding: 6px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #D80032;
+}
+
+#catalogo h2:hover{
+  color: #D80032;
+  cursor: pointer;
 }
 
 .card-title h3,
@@ -64,8 +75,13 @@ body h2 {
 }
 
 .sugest {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #D80032;
   padding: 6px;
+}
+
+.sugest:hover{
+  color: #D80032;
+  cursor: pointer;
 }
 
 .form label,
